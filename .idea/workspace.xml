@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="487a4631-5800-4bef-b466-acdf1c98af43" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Emoree_login_dashboard.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="202" column="44" selection-start-line="202" selection-start-column="38" selection-end-line="202" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Emoree_login_dashboard_files/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="900" column="113" selection-start-line="900" selection-start-column="113" selection-end-line="900" selection-end-column="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Emoree_login_dashboard_files/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3780">
+              <caret line="252" column="16" selection-start-line="252" selection-start-column="7" selection-end-line="252" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>thumb</find>
+      <find>download</find>
+      <find>downloa</find>
+      <find>downloadpdf</find>
+      <find>width: 12</find>
+      <find>skip</find>
+      <find>exit</find>
+      <find>.card</find>
+      <find>invite</find>
+      <find>z-index</find>
+      <find>show</find>
+      <find>intro-vi</find>
+      <find>start</find>
+      <find>button</find>
+      <find>popup-clo</find>
+      <find>popup</find>
+      <find>popup-close</find>
+      <find>over-po</find>
+      <find>duration</find>
+      <find>thumbs</find>
+      <find>klasse-ers</find>
+      <find>height</find>
+      <find>1100</find>
+      <find>video</find>
+      <find>showv</find>
+      <find>new code 2</find>
+      <find>code 2</find>
+      <find>new style</find>
+      <find>object</find>
+      <find>&lt;object</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lamijas_stuff/close.svg" />
+        <option value="$PROJECT_DIR$/lamijas_stuff/thumbs_down_colored.svg" />
+        <option value="$PROJECT_DIR$/lamijas_stuff/kamera.svg" />
+        <option value="$PROJECT_DIR$/lamijas_stuff/kamera1.svg" />
+        <option value="$PROJECT_DIR$/lamijas_stuff/download.svg" />
+        <option value="$PROJECT_DIR$/lamijas_stuff/thumbs_up.svg" />
+        <option value="$PROJECT_DIR$/Emoree_login_dashboard.html" />
+        <option value="$PROJECT_DIR$/Emoree_login_dashboard_files/style.css" />
+        <option value="$PROJECT_DIR$/Emoree_login_dashboard_files/script.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Emoree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Emoree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Emoree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Emoree" type="462c0819:PsiDirectoryNode" />
+              <item name="Emoree_login_dashboard_files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Emoree" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Emoree" type="462c0819:PsiDirectoryNode" />
+              <item name="lamijas_stuff" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="487a4631-5800-4bef-b466-acdf1c98af43" name="Default Changelist" comment="" />
+      <created>1549010341727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549010341727</updated>
+      <workItem from="1549010348404" duration="13922000" />
+      <workItem from="1549268679448" duration="6238000" />
+      <workItem from="1549282192874" duration="1207000" />
+      <workItem from="1549289522780" duration="2803000" />
+      <workItem from="1549451938428" duration="4708000" />
+      <workItem from="1549464108228" duration="2667000" />
+      <workItem from="1549540881281" duration="1347000" />
+      <workItem from="1549545869611" duration="357000" />
+      <workItem from="1549891345311" duration="7559000" />
+      <workItem from="1549906523058" duration="2999000" />
+      <workItem from="1549975009024" duration="1388000" />
+      <workItem from="1550058774365" duration="1312000" />
+      <workItem from="1550065243846" duration="240000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="46747000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24543288" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Emoree_login_dashboard.html</url>
+          <line>201</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Emoree_login_dashboard_files/chart.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoree_login_dashboard_files/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoree_login_dashboard_files/amplitude-3.4.1-min.gz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20372" selection-start-line="1" selection-start-column="20369" selection-end-line="1" selection-end-column="20372" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoree_login_dashboard_files/analytics.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lamijas_stuff/close.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lamijas_stuff/thumbs_down_colored.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lamijas_stuff/kamera.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lamijas_stuff/download.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lamijas_stuff/thumb-up.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lamijas_stuff/thumbs_down.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lamijas_stuff/kamera1.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lamijas_stuff/thumbs_up.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoree_login_dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="202" column="44" selection-start-line="202" selection-start-column="38" selection-end-line="202" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoree_login_dashboard_files/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3780">
+          <caret line="252" column="16" selection-start-line="252" selection-start-column="7" selection-end-line="252" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emoree_login_dashboard_files/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="900" column="113" selection-start-line="900" selection-start-column="113" selection-end-line="900" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
