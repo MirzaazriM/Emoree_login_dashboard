@@ -781,7 +781,7 @@ function generateIntroCards() {
 	}
 
 	// add skip button
-	cardInnerElements += "<div class='button skip-button' onclick='popup()'>Skip</div>";
+	cardInnerElements += "<div class='button skip-button' onclick='closeIntroPopup()'>Skip</div>";
 
 	// set generated elements
 	document.getElementById("right-intro-part").innerHTML = cardInnerElements;
@@ -927,11 +927,50 @@ $(document).ready(function() {
 // END New CODE 2
 
 // New CODE 2
+var userLikedDisliked = "";
 function toggleLike(value) {
+
+	// like/dislike value will be sent to the server after user closes dialog window
+
+	var divLike = document.getElementById("likeButton");
+	var objectLike = divLike.getElementsByTagName("object")[0];
+
+	var divDislike = document.getElementById("dislikeButton");
+	var objectDislike = divDislike.getElementsByTagName("object")[0];
+
+	// toggle like/dislike
+	if (value === "likeButton") {
+		objectLike.data = "lamijas_stuff/thumbs_up_on.svg";
+		objectDislike.data = "lamijas_stuff/thumbs_down.svg";
+		userLikedDisliked = "liked";
+	} else if (value === "dislikeButton") {
+		objectLike.data = "lamijas_stuff/thumbs_up.svg";
+		objectDislike.data = "lamijas_stuff/thumbs_down_on.svg";
+		userLikedDisliked = "disliked";
+	}
 
 }
 // END New CODE 2
 
+
+function closeIntroPopup () {
+	// check if liked/disliked
+	var state = "";
+
+	if (userLikedDisliked === "liked") {
+		state = 1;
+	} else if (userLikedDisliked === "disliked") {
+		state = 0;
+	}
+
+	// send request if neccessary
+	if (state === 0 || state === 1) {
+		// make request in another function
+	}
+
+	// close popuop
+	popup();
+}
 
 /*** AJAX ***/
 
