@@ -921,6 +921,10 @@ $(document).ready(function() {
 		'</div>'
 	);
 
+	// check if user liked/disliked intro already
+	checkIsUserAlreadyLikedOrDislikedIntroduction();
+
+	// generate right part cards
 	generateIntroCards();
 
 });
@@ -928,7 +932,16 @@ $(document).ready(function() {
 
 // New CODE 2
 var userLikedDisliked = "";
+var lastValue = "";
+var oldLikeValue = "";
 function toggleLike(value) {
+
+	// set this so that nothing is done if user clicked the same icon multiple times in a row
+	if (lastValue === value) {
+		return;
+	} else {
+		lastValue = value;
+	}
 
 	// like/dislike value will be sent to the server after user closes dialog window
 
@@ -943,16 +956,38 @@ function toggleLike(value) {
 		objectLike.data = "lamijas_stuff/thumbs_up_on.svg";
 		objectDislike.data = "lamijas_stuff/thumbs_down.svg";
 		userLikedDisliked = "liked";
+		// set to local storage so that after user visits page again like is selected
+		localStorage.setItem("likeValue", userLikedDisliked);
 	} else if (value === "dislikeButton") {
 		objectLike.data = "lamijas_stuff/thumbs_up.svg";
 		objectDislike.data = "lamijas_stuff/thumbs_down_on.svg";
 		userLikedDisliked = "disliked";
+		// set to local storage so that after user visits page again like is selected
+		localStorage.setItem("likeValue", userLikedDisliked);
 	}
 
 }
 // END New CODE 2
 
+function checkIsUserAlreadyLikedOrDislikedIntroduction() {
 
+	// check if likeValue is in localStorage
+	if (localStorage.getItem("likeValue") !== undefined) {
+
+		var likeValue = localStorage.getItem("likeValue");
+		oldLikeValue = likeValue;
+
+		// check if user previously liked or disliked introduction
+		if (likeValue === "liked") {
+			toggleLike("likeButton");
+		} else if (likeValue === "disliked") {
+			toggleLike("dislikeButton")
+		}
+	}
+
+}
+
+// close intro popup when clicked on Skip button
 function closeIntroPopup () {
 	// check if liked/disliked
 	var state = "";
@@ -963,9 +998,19 @@ function closeIntroPopup () {
 		state = 0;
 	}
 
-	// send request if neccessary
-	if (state === 0 || state === 1) {
-		// make request in another function
+	// send request if neccessary (user clicked like or dislike and the value isnt the same as one from localStorage)
+	if ((state === 0 || state === 1) && oldLikeValue !== userLikedDisliked) {
+		$.ajax({
+			type: "GET",
+			url: "/introduction/like", // ROUTE FOR TESTING "https://3e023e3f-bb85-4269-8104-0daadcf6289e.mock.pstmn.io/api/webinars"
+			data: {
+				"value": state
+			},
+			dataType: "json",
+			error: function(){
+				// maybe to send some log to know that this function doenst work
+			}
+		});
 	}
 
 	// close popuop

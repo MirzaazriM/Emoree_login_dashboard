@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="487a4631-5800-4bef-b466-acdf1c98af43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Emoree_login_dashboard_files/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Emoree_login_dashboard_files/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Emoree_login_dashboard_files/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Emoree_login_dashboard_files/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,26 +19,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Emoree_login_dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2932">
-              <caret line="202" column="44" selection-start-line="202" selection-start-column="38" selection-end-line="202" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Emoree_login_dashboard_files/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="986" column="12" selection-start-line="986" selection-end-line="986" selection-end-column="12" />
+            <state relative-caret-position="-325">
+              <caret line="9" column="65" lean-forward="true" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Emoree_login_dashboard_files/style.css">
+        <entry file="file://$PROJECT_DIR$/Emoree_login_dashboard_files/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="254" lean-forward="true" selection-start-line="254" selection-end-line="254" />
+            <state relative-caret-position="30">
+              <caret line="978" column="8" selection-start-line="978" selection-start-column="8" selection-end-line="978" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -49,8 +38,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>skip</find>
-      <find>exit</find>
       <find>.card</find>
       <find>invite</find>
       <find>z-index</find>
@@ -77,8 +64,10 @@
       <find>popup</find>
       <find>closeIntroPopup</find>
       <find>post</find>
-      <find>ajax</find>
       <find>function aja</find>
+      <find>ajax</find>
+      <find>$.ajax</find>
+      <find>getI</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -93,9 +82,9 @@
         <option value="$PROJECT_DIR$/lamijas_stuff/kamera1.svg" />
         <option value="$PROJECT_DIR$/lamijas_stuff/download.svg" />
         <option value="$PROJECT_DIR$/lamijas_stuff/thumbs_up.svg" />
+        <option value="$PROJECT_DIR$/Emoree_login_dashboard_files/style.css" />
         <option value="$PROJECT_DIR$/Emoree_login_dashboard.html" />
         <option value="$PROJECT_DIR$/Emoree_login_dashboard_files/script.js" />
-        <option value="$PROJECT_DIR$/Emoree_login_dashboard_files/style.css" />
       </list>
     </option>
   </component>
@@ -111,6 +100,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,12 +122,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lamijas_stuff" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -174,12 +168,13 @@
       <workItem from="1549975009024" duration="1388000" />
       <workItem from="1550058774365" duration="1312000" />
       <workItem from="1550065243846" duration="240000" />
-      <workItem from="1550488994590" duration="3609000" />
+      <workItem from="1550488994590" duration="6177000" />
+      <workItem from="1550565463956" duration="3311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50356000" />
+    <option name="totallyTimeSpent" value="56235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -253,9 +248,7 @@
     <entry file="file://$PROJECT_DIR$/lamijas_stuff/download.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lamijas_stuff/thumb-up.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lamijas_stuff/thumb-up.svg" />
     <entry file="file://$PROJECT_DIR$/lamijas_stuff/thumbs_down.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -265,24 +258,28 @@
     <entry file="file://$PROJECT_DIR$/lamijas_stuff/thumbs_up.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Emoree_login_dashboard_files/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="254" lean-forward="true" selection-start-line="254" selection-end-line="254" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lamijas_stuff/thumbs_down_on.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lamijas_stuff/facebook.svg" />
     <entry file="file://$PROJECT_DIR$/Emoree_login_dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2932">
-          <caret line="202" column="44" selection-start-line="202" selection-start-column="38" selection-end-line="202" selection-end-column="44" />
+        <state relative-caret-position="-325">
+          <caret line="9" column="65" lean-forward="true" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Emoree_login_dashboard_files/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="986" column="12" selection-start-line="986" selection-end-line="986" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Emoree_login_dashboard_files/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="254" lean-forward="true" selection-start-line="254" selection-end-line="254" />
+        <state relative-caret-position="30">
+          <caret line="978" column="8" selection-start-line="978" selection-start-column="8" selection-end-line="978" selection-end-column="8" />
         </state>
       </provider>
     </entry>
